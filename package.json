@@ -1,0 +1,29 @@
+{
+  "name": "time-sheet",
+  "version": "1.0.0",
+  "description": "time sheet",
+  "author": "patrickLabes",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/moment": "^1.6.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.2"
+  }
+}
